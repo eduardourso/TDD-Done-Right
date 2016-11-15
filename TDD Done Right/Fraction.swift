@@ -14,7 +14,11 @@ class Fraction {
     }
 
     func plus(_ fraction: Fraction) -> Fraction {
-        return Fraction(self.numerator + fraction.numerator, denominator)
+        if self.denominator != fraction.denominator {
+            return Fraction(self.numerator * fraction.denominator + fraction.numerator * self.denominator, self.denominator * fraction.denominator)
+        } else {
+            return Fraction(self.numerator + fraction.numerator, denominator)
+        }
     }
 
     func toString() -> String {

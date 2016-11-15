@@ -32,4 +32,8 @@ class AddFractionTest: XCTestCase {
         let sum = Fraction(1, 5).plus(Fraction(2, 5))
         XCTAssertEqual(Fraction(3, 5), sum)
     }
+
+    func testDifferentDenominatorsWithoutReducing() {
+        XCTAssertEqual(Fraction(5, 6), Fraction(1, 2).plus(Fraction(1, 3)))
+    }
 }
