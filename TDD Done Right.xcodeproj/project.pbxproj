@@ -11,9 +11,11 @@
 		8A0184252C50795695F4AF98 /* Fraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A01856AB36CD45F3C649CA1 /* Fraction.swift */; };
 		8A0184D8402AF653C4E61F5B /* FractionEqualsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A018829D1B1DB11A2DDDC0D /* FractionEqualsTest.swift */; };
 		8A01859EDFA888AE99057EFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A0184E9246C564E9E198275 /* LaunchScreen.storyboard */; };
+		8A018655DAAD8EC754D76948 /* GreatestCommonDivisorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A018365999F113716DD9842 /* GreatestCommonDivisorTests.swift */; };
 		8A01869CB0386CF1F69B245E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A01839381802C7072E917AD /* Assets.xcassets */; };
 		8A0187F4454086514EF9382B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A018330DCA913D8A27F1E21 /* Main.storyboard */; };
 		8A0188F88F6DF4868C443144 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0183F573450B0C57365F03 /* AppDelegate.swift */; };
+		8A018D33474FEC1332369D87 /* ReduceFractionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A01862D24E23868C758DBB5 /* ReduceFractionTests.swift */; };
 		8A018E5A48B84BD04C254B6F /* AddFractionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A018AACF0F36C5141492B87 /* AddFractionTest.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,10 +32,12 @@
 /* Begin PBXFileReference section */
 		8A01817FD7D2AD7FA3A9E394 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A0181CDEE6DFAC278A693AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		8A018365999F113716DD9842 /* GreatestCommonDivisorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreatestCommonDivisorTests.swift; sourceTree = "<group>"; };
 		8A01839381802C7072E917AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A01839A7E86405309E6D92E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		8A0183F573450B0C57365F03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A01856AB36CD45F3C649CA1 /* Fraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fraction.swift; sourceTree = "<group>"; };
+		8A01862D24E23868C758DBB5 /* ReduceFractionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReduceFractionTests.swift; sourceTree = "<group>"; };
 		8A018829D1B1DB11A2DDDC0D /* FractionEqualsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FractionEqualsTest.swift; sourceTree = "<group>"; };
 		8A018AACF0F36C5141492B87 /* AddFractionTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFractionTest.swift; sourceTree = "<group>"; };
 		8A018BB62821B56C2ABD2051 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +102,8 @@
 				8A01839A7E86405309E6D92E /* Info.plist */,
 				8A018AACF0F36C5141492B87 /* AddFractionTest.swift */,
 				8A018829D1B1DB11A2DDDC0D /* FractionEqualsTest.swift */,
+				8A01862D24E23868C758DBB5 /* ReduceFractionTests.swift */,
+				8A018365999F113716DD9842 /* GreatestCommonDivisorTests.swift */,
 			);
 			path = "TDD Done RightTests";
 			sourceTree = "<group>";
@@ -204,6 +210,8 @@
 			files = (
 				8A018E5A48B84BD04C254B6F /* AddFractionTest.swift in Sources */,
 				8A0184D8402AF653C4E61F5B /* FractionEqualsTest.swift in Sources */,
+				8A018D33474FEC1332369D87 /* ReduceFractionTests.swift in Sources */,
+				8A018655DAAD8EC754D76948 /* GreatestCommonDivisorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

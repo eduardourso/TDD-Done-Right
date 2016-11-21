@@ -22,9 +22,4 @@ class FractionEqualsTest: XCTestCase {
     func testWholeNumberIsNotTheSameAsWholeNumber() {
         XCTAssertNotEqual(Fraction(5), Fraction(4))
     }
-
-    func testReduceFraction() {
-        XCTAssertEqual(Fraction(2, 4), Fraction(4, 8))
-    }
-
 }
