@@ -36,4 +36,29 @@ class AddFractionTest: XCTestCase {
     func testDifferentDenominatorsWithoutReducing() {
         XCTAssertEqual(Fraction(5, 6), Fraction(1, 2).plus(Fraction(1, 3)))
     }
+    
+    func testReduceResultToWholeNumber() {
+        XCTAssertEqual(Fraction(1), Fraction(1, 3).plus(Fraction(2, 3)))
+    }
+
+    func testOneDenominatorIsMultipleOfTheOther() {
+        XCTAssertEqual(Fraction(11, 8), Fraction(3, 4).plus(Fraction(5, 8)))
+    }
+
+    func testCommonFactorInDenominators() {
+        XCTAssertEqual(Fraction(11, 18), Fraction(1, 6).plus(Fraction(4, 9)))
+    }
+
+    func testReduceResultEvenWhenDenominatorsAreTheSame() {
+        XCTAssertEqual(Fraction(3, 2), Fraction(3, 4).plus(Fraction(3, 4)))
+    }
+
+    func testNegativeFractionAndReducing() {
+        XCTAssertEqual(Fraction(1, 2), Fraction(-1, 4).plus(Fraction(3, 4)))
+        XCTAssertEqual(Fraction(-1, 8), Fraction(3, 8).plus(Fraction(-1, 2)))
+    }
+
+    func ignoreTestNegativeSignsEverywhere() {
+        XCTAssertEqual(Fraction(1, 2), Fraction(1, -4).plus(Fraction(-3, -4)))
+    }
 }
