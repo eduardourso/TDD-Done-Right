@@ -58,7 +58,7 @@ class AddFractionTest: XCTestCase {
         XCTAssertEqual(Fraction(-1, 8), Fraction(3, 8).plus(Fraction(-1, 2)))
     }
 
-    func ignoreTestNegativeSignsEverywhere() {
+    func testNegativeSignsEverywhere() {
         XCTAssertEqual(Fraction(1, 2), Fraction(1, -4).plus(Fraction(-3, -4)))
     }
 }
