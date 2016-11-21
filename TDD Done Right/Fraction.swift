@@ -9,7 +9,8 @@ class Fraction {
     }
 
     init(_ numerator: Int, _ denominator: Int) {
-        let gcd = NumberTheory.gcd(numerator, denominator)
+        let signOfDenominator = denominator < 0 ? -1 : 1
+        let gcd = NumberTheory.gcd(numerator, denominator) * signOfDenominator
         self.numerator = numerator / gcd
         self.denominator = denominator / gcd
     }
