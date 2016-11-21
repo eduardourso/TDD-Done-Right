@@ -30,4 +30,10 @@ class GreatestCommonDivisorTests: XCTestCase {
         XCTAssertEqual(4, NumberTheory.gcd(24, -28))
         XCTAssertEqual(4, NumberTheory.gcd(-24, 28))
     }
+
+    func testZero() {
+        XCTAssertEqual(1, NumberTheory.gcd(1, 0))
+        XCTAssertEqual(5, NumberTheory.gcd(0, 5))
+        XCTAssertEqual(0, NumberTheory.gcd(0, 0))
+    }
 }

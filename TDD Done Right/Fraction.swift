@@ -10,17 +10,14 @@ class Fraction {
 
     init(_ numerator: Int, _ denominator: Int) {
         let signOfDenominator = denominator < 0 ? -1 : 1
+        // contract: gcd() never returns 0
         let gcd = NumberTheory.gcd(numerator, denominator) * signOfDenominator
         self.numerator = numerator / gcd
         self.denominator = denominator / gcd
     }
 
     func plus(_ fraction: Fraction) -> Fraction {
-        if self.denominator != fraction.denominator {
-            return Fraction(self.numerator * fraction.denominator + fraction.numerator * self.denominator, self.denominator * fraction.denominator)
-        } else {
-            return Fraction(self.numerator + fraction.numerator, denominator)
-        }
+        return Fraction(self.numerator * fraction.denominator + fraction.numerator * self.denominator, self.denominator * fraction.denominator)
     }
 
     func toString() -> String {
