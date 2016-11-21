@@ -13,6 +13,7 @@
 		8A01859EDFA888AE99057EFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A0184E9246C564E9E198275 /* LaunchScreen.storyboard */; };
 		8A018655DAAD8EC754D76948 /* GreatestCommonDivisorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A018365999F113716DD9842 /* GreatestCommonDivisorTests.swift */; };
 		8A01869CB0386CF1F69B245E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A01839381802C7072E917AD /* Assets.xcassets */; };
+		8A0187A249B833E8DCCA9236 /* NumberTheory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0188EEE054C4F51AD7E482 /* NumberTheory.swift */; };
 		8A0187F4454086514EF9382B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A018330DCA913D8A27F1E21 /* Main.storyboard */; };
 		8A0188F88F6DF4868C443144 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0183F573450B0C57365F03 /* AppDelegate.swift */; };
 		8A018D33474FEC1332369D87 /* ReduceFractionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A01862D24E23868C758DBB5 /* ReduceFractionTests.swift */; };
@@ -39,6 +40,7 @@
 		8A01856AB36CD45F3C649CA1 /* Fraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fraction.swift; sourceTree = "<group>"; };
 		8A01862D24E23868C758DBB5 /* ReduceFractionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReduceFractionTests.swift; sourceTree = "<group>"; };
 		8A018829D1B1DB11A2DDDC0D /* FractionEqualsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FractionEqualsTest.swift; sourceTree = "<group>"; };
+		8A0188EEE054C4F51AD7E482 /* NumberTheory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NumberTheory.swift; path = Core/NumberTheory.swift; sourceTree = "<group>"; };
 		8A018AACF0F36C5141492B87 /* AddFractionTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFractionTest.swift; sourceTree = "<group>"; };
 		8A018BB62821B56C2ABD2051 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8A018BC2F41BA70BBA7F28D7 /* TDD Done Right.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TDD Done Right.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +85,7 @@
 				8A018330DCA913D8A27F1E21 /* Main.storyboard */,
 				8A018BB62821B56C2ABD2051 /* ViewController.swift */,
 				8A01856AB36CD45F3C649CA1 /* Fraction.swift */,
+				8A0188EEE054C4F51AD7E482 /* NumberTheory.swift */,
 			);
 			path = "TDD Done Right";
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				8A0188F88F6DF4868C443144 /* AppDelegate.swift in Sources */,
 				8A01824D25222DCD2D3B610F /* ViewController.swift in Sources */,
 				8A0184252C50795695F4AF98 /* Fraction.swift in Sources */,
+				8A0187A249B833E8DCCA9236 /* NumberTheory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

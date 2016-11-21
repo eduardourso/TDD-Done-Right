@@ -9,8 +9,9 @@ class Fraction {
     }
 
     init(_ numerator: Int, _ denominator: Int) {
-        self.numerator = numerator
-        self.denominator = denominator
+        let gcd = NumberTheory.gcd(numerator, denominator)
+        self.numerator = numerator / gcd
+        self.denominator = denominator / gcd
     }
 
     func plus(_ fraction: Fraction) -> Fraction {

@@ -8,7 +8,7 @@ class ReduceFractionTests: XCTestCase {
   }
 
   func testReduceToNotWholeNumber() {
-
+      XCTAssertEqual(Fraction(3, 4), Fraction(6, 8))
   }
     
 }
